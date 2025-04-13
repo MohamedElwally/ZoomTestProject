@@ -134,7 +134,7 @@ export default function Zoom() {
             signature: meetingData.signature,
             meetingNumber: meetingData.meetingNumber,
             userName: formData.name || "Zoom User",
-            sdkKey: "UoCjUegUT16YHg1qRgb0Dg", // Your SDK Key
+            sdkKey: "S0KY6waRXbOkH6Ag7uIA", // Your SDK Key
             userEmail: formData.email || "zoomtest@test.com",
             passWord: meetingData.password,
             success: () => {
