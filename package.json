@@ -1,0 +1,25 @@
+{
+  "name": "zoom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@zoom/meetingsdk": "^3.12.0",
+    "@zoom/videosdk": "^2.1.10",
+    "@zoomus/websdk": "^2.18.3",
+    "jsrsasign": "^11.1.0",
+    "next": "15.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
